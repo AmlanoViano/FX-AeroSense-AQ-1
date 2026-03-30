@@ -74,8 +74,7 @@ Gas concentration is then estimated from the $R_S / R_0$ ratio using the datashe
 ```
 FX-AeroSense-AQ1/
 ├── firmware/
-│   └── air_quality_monitor/
-│       └── air_quality_monitor.ino
+│   └── sensor_setup.ino
 ├── analysis/               # data analysis pipeline (in development)
 ├── data/
 │   └── sample/
