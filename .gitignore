@@ -1,0 +1,83 @@
+# ── Arduino / ESP32 build artefacts ──────
+build/
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+
+# Arduino IDE cache & preferences
+.arduino15/
+preferences.txt
+*.bak
+
+# PlatformIO (if ever migrated)
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/
+
+# ── Collected sensor data ─────────────────
+data/raw/
+data/processed/
+*.csv
+*.log
+# Allow the sample file committed for documentation
+!data/sample/sample_data.csv
+
+# ── Python / data analysis ───────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+*.so
+
+# Virtual environments
+venv/
+env/
+.env
+.venv/
+ENV/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── OS noise ─────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── Editors ──────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ── Secrets / credentials ─────────────────
+secrets.h
+config_local.h
+*.key
+*.pem
+.env.local
